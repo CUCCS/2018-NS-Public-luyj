@@ -1,9 +1,9 @@
 ![](网卡.jpg)
 
-![](iw phy-1.jpg)
+![](iwphy-1.PNG)
 
-![](iw phy-2.jpg)
+![](iwphy-2.PNG)
 
-![](iw phy-3.jpg)
+![](iwphy-3.PNG)
 
-![](iw phy-4.jpg)
+![](iwphy-4.PNG)
