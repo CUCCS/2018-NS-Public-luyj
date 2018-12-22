@@ -211,7 +211,7 @@ event http_request(c: connection, method: string, original_URI: string,
     - 使用```bro /usr/share/bro/base/protocols/http -i eth0 detect-sqli.bro```指令进行监听(由上次的实验可知是监听eth0)
     - 执行```python /usr/bin/sqlmap -u "http://10.0.2.7/cat.php?id=1 --all"```
         ![](10.PNG)
-        报错是因为接收的TCP包校验和错误，联想上一个实验，所以也在该目录下添加了```mytuning.bro```,并在```__load__.bro```中添加配置
+        报错是因为接收的TCP包校验和错误，联想上一个实验，所以也在该目录下添加了```mytuning.bro```,并在```__load__.bro```中添加配置<br>
         ![](12.PNG)
         ![](11.PNG)
     - 再次执行sqlmap指令，指令执行完成后查看``` /usr/share/bro/base/protocols/http```目录
